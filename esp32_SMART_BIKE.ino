@@ -1,8 +1,12 @@
-// =======================================================
-// ESP32 FTMS Indoor Bike Sensor 
-// Potencia + Cadencia (+ Velocidad simulada para compatibilidad)
-// Filtro adaptativo por magnitud de cambio (Delta RPM)
-// =======================================================
+
+/*
+ * ESP32 FTMS Indoor Bike Sensor
+ * Copyright (c) 2026 Rafaday: https://github.com/Rafaday
+ * Licensed under the MIT License.
+ *
+ * See LICENSE file in the project root for full license information.
+ */
+
 
 #include <math.h>
 #include <BLEDevice.h>
